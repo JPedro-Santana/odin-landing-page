@@ -1,5 +1,132 @@
-footer, .hero{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Roboto;
+    text-decoration: none;
+    list-style: none;
+    /*border: 1px solid red;*/
+    margin:0;
+    padding:0;
+}
+
+header{
     display: flex;
-    justify-content: center;
-    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0px 8px;
+    margin: 0px 60px;
+}
+
+li a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo{
+    padding: 0px 10px;
+    margin: 0px 50px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero, footer{
+background-color: #1F2937;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.p-img{
+    background-color: #6D747D;
+    color: #F9FAF8;
+    padding: 40px;
+}
+
+.button{
+    border-radius: 6px;
+    border-style: solid;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.first{
+    background-color: #3882f6;
+    border: 2px;
+}
+
+.second{
+   background: transparent;
+   border: 2px solid white;
+}
+
+.random-info{
+
+}
+
+figure{
+    border: #3882f6 solid;
+    border-radius: 4px;
+}
+
+.information{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    margin: auto;
+    padding: 80px;
+    text-align: center;
+}
+
+.quote{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.strong{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.border{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    margin: 50px;
+    padding: 30px;
+    width: 75%;
+  
+}
+
+.first-p{
+    font-weight: bold;
+}
+
+.second-p{
+
+}
+
+footer{
+    text-align: center;
+    padding: 35px;
+    color: #F9FAF8;
 }
