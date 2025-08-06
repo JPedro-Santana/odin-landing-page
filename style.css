@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -23,6 +23,7 @@
 .links {
   display: flex;
   gap: 40px;
+  font-weight: 350;
 }
 
 .links a {
@@ -58,13 +59,14 @@ footer {
 
 .secondary-text {
   font-size: 18px;
+  font-weight: 350;
   color: #e5e7eb;
 }
 
 .p-img {
   background-color: #6d747d;
   color: #f9faf8;
-  width: 500px;
+  width: 550px;
   height: 250px;
   display: flex;
   justify-content: center;
@@ -84,7 +86,7 @@ footer {
 .first {
   background-color: #3882f6;
   border: 2px solid #3882f6;
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 .second {
@@ -125,8 +127,7 @@ figure {
 }
 
 figcaption {
-  font-size: 14px;
-  font-weight: 200;
+  font-size: 16px;
   color: #1f2937;
   line-height: 1.4;
 }
